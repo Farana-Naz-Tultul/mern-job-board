@@ -182,23 +182,23 @@ POST /api/auth/login
 
 
 
-&nbsp;User registration/login
+User registration/login
 
 
 
-&nbsp;JWT middleware for protected routes
+JWT middleware for protected routes
 
 
 
-&nbsp;Job posting CRUD routes
+Job posting CRUD routes
 
 
 
-&nbsp;React frontend
+React frontend
 
 
 
-&nbsp;Deployment
+Deployment
 
 
 
