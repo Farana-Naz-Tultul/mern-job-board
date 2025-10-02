@@ -206,5 +206,5 @@ POST /api/auth/login
 
 
 
-Farana Naz Tultul — https://github.com/Farana-Naz-Tultul
+**Farana Naz Tultul** — [GitHub](https://github.com/Farana-Naz-Tultul)
 
