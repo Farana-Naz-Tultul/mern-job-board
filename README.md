@@ -176,6 +176,23 @@ POST /api/auth/register
 
 POST /api/auth/login
 
+## 🔥 Testing the API with Postman
+
+This project comes with a ready-to-use Postman collection:  
+`mern-job-board.postman_collection.json`
+
+### Steps:
+1. Import the JSON collection into Postman (`File → Import`).  
+2. Register a new user with any email/password.  
+3. Login with those credentials → copy the **JWT token** from the response.  
+4. In Postman, go to the collection **Variables tab** → paste the token in the `token` variable.  
+5. Now you can run:
+   - **POST /api/jobs** → create job  
+   - **GET /api/jobs** → fetch all jobs  
+   - **PATCH /api/jobs/:id** → update job  
+   - **DELETE /api/jobs/:id** → delete job  
+
+This way you can test the full CRUD flow.
 
 
 📌 Roadmap
