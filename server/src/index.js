@@ -10,6 +10,11 @@ import morgan from 'morgan';
 //import authRoutes brings in the routes we wrote in auth.js.
 import authRoutes from './routes/auth.js';
 
+//need to wire the job routes into my server (index.js).
+// Otherwise, my server won't know those endpoints exist.
+import jobRoutes from "./routes/jobRoutes.js";
+
+
 
 // Create an Express app
 const app = express();
@@ -21,6 +26,9 @@ app.use(morgan('dev'));       // logs requests in terminal for debugging
 
 //app.use('/api/auth', authRoutes) mounts them under /api/auth.
 app.use('/api/auth', authRoutes);
+
+// Jobs routes (protected), now jobs are wired in
+app.use("/api/jobs", jobRoutes);
 
 
 // Simple route to test if server is working
